@@ -1,0 +1,16 @@
+{
+    "name": "gezer/srp",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Gezer",
+            "email": "gezerramo@gmail.com"
+        }
+    ],
+    "require": {}
+}
