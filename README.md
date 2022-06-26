@@ -15,11 +15,11 @@ Endpoint | Description
 
 # structure created as an example
 
-`CarrinhoCompra->item`
-`Pedido->CarrinhoCompra`
-`index->[`
-  `->EmailService,`
-  `->Item,`
-  `->Pedido,`
-  `->CarrinhoCompra`
-`]`
+`CarrinhoCompra->item`</br>
+`Pedido->CarrinhoCompra`</br>
+`index->[`</br>
+  `->EmailService,`</br>
+  `->Item,`</br>
+  `->Pedido,`</br>
+  `->CarrinhoCompra`</br>
+`]`</br>
