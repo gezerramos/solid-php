@@ -63,5 +63,7 @@ echo '</br>Satatus do pedido?</br>' . $pedido->getStatusPedido();
 echo '</br>Confirmar pedido</br>' . $pedido->confirmarPedido();
 
 echo '</br>Satatus do pedido?</br>' . $pedido->getStatusPedido();
+if ($pedido->getStatusPedido() == 'confirmado') {
+  echo '</br>' . EmailService::enviarEmailConfirmação();
+}
 
-echo '</br>' . EmailService::enviarEmailConfirmação();
