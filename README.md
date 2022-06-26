@@ -10,17 +10,18 @@ Endpoint | Description
 `D` | DIP - Dependency Inversion Principle (Princípio da Inversão de Dependência)
 
 
-# exec server 
+# Exec server 
 `server php -S localhost:8000`
 
-# structure created as an example
+# Structure created as an example
 ```
-CarrinhoCompra->item
-Pedido->CarrinhoCompra
-index->[
-  ->EmailService,
-  ->Item,
-  ->Pedido,
-  ->CarrinhoCompra
-`]`
+- item
+- CarrinhoCompra->item
+- Pedido->CarrinhoCompra
+- index-> [
+          ->EmailService,
+          ->Item,
+          ->Pedido,
+          ->CarrinhoCompra
+          ]
 ```
