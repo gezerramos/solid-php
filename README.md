@@ -14,6 +14,7 @@ Endpoint | Description
 `server php -S localhost:8000`
 
 # Structure created as an example
+## SRP
 ```
 - item
 - CarrinhoCompra->item
@@ -25,3 +26,10 @@ Endpoint | Description
           ->CarrinhoCompra
           ]
 ```
+## OCP
+
+
+========
+# PHP and Composer version
+PHP 7.4.28
+Composer version 2.2.9
