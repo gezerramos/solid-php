@@ -1,4 +1,4 @@
-SOLID - PHP
+SOLID - PHP <a href="https://php.net/" title="PHP"><img src="https://github.com/tomchen/stack-icons/blob/master/logos/php.svg" alt="PHP" width="35px" height="35px"></a>
 ========
 
 Endpoint | Description
@@ -26,7 +26,7 @@ Endpoint | Description
           ->CarrinhoCompra
           ]
 ```
-## OCP :o2:
+## OCP :soon:
 
 
 # PHP and Composer version
