@@ -14,12 +14,13 @@ Endpoint | Description
 `server php -S localhost:8000`
 
 # structure created as an example
-
-`CarrinhoCompra->item`</br>
-`Pedido->CarrinhoCompra`</br>
-`index->[`</br>
-  `->EmailService,`</br>
-  `->Item,`</br>
-  `->Pedido,`</br>
-  `->CarrinhoCompra`</br>
-`]`</br>
+```
+CarrinhoCompra->item
+Pedido->CarrinhoCompra
+index->[
+  ->EmailService,
+  ->Item,
+  ->Pedido,
+  ->CarrinhoCompra
+`]`
+```
