@@ -8,6 +8,7 @@ Endpoint | Description
 `L` | LSP - Liskov Substitution Principle (Princípio de Substituição de Liskov) :x:
 `I` | ISP - Interface Segregation Principle (Princípio da Segregação de Interface) :x:
 `D` | DIP - Dependency Inversion Principle (Princípio da Inversão de Dependência) :x:
+`PHPUnit` | Extra - Implementing Automated Unit Tests :heavy_check_mark:
 
 
 # Exec server 
