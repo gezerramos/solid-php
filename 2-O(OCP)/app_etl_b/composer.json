@@ -1,0 +1,14 @@
+{
+    "name": "gezer/app_etl",
+    "autoload": {
+        "psr-4": {
+            "src\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "gezerramos2",
+            "email": "gezerramo@gmail.com"
+        }
+    ]
+}

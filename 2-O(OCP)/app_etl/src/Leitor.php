@@ -11,12 +11,12 @@ class Leitor
   private $arquivo;
 
 
-  public function getDiretorio(): string
+  private function getDiretorio(): string
   {
     return $this->diretorio;
   }
 
-  public function getArquivo(): string
+  private function getArquivo(): string
   {
     return $this->arquivo;
   }
@@ -33,9 +33,20 @@ class Leitor
 
   public function lerArquivo()
   {
+
+    
     $caminho = $this->getDiretorio().'/'.$this->getArquivo();
     $arquivo = new Arquivo();
-    $arquivo->lerArquivoCSV($caminho);
+    $extensão = explode('.',$this->getArquivo());
+
+    if ($extensão[1] == 'csv') {
+      $arquivo->lerArquivoCSV($caminho);
+    }
+
+    if ($extensão[1] == 'txt') {
+      $arquivo->lerArquivoTXT($caminho);
+    }    
+
    return $arquivo->getDados();
   }
 }

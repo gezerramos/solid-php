@@ -4,22 +4,18 @@ SOLID - PHP <a href="https://php.net/" title="PHP"><img src="https://github.com/
 Endpoint | Description
 --- | ---
 `S` | SRP - Single Responsibility Principle (Princípio da Responsabilidade Única) :heavy_check_mark:
-`O` | OCP - Open/Closed Principle (Princípio Aberto/Fechado) :x:
+`O` | OCP - Open/Closed Principle (Princípio Aberto/Fechado) :heavy_check_mark:
 `L` | LSP - Liskov Substitution Principle (Princípio de Substituição de Liskov) :x:
 `I` | ISP - Interface Segregation Principle (Princípio da Segregação de Interface) :x:
 `D` | DIP - Dependency Inversion Principle (Princípio da Inversão de Dependência) :x:
 `PHPUnit` | Extra - Implementing Automated Unit Tests :heavy_check_mark:
 
-
-# Exec server 
-`server php -S localhost:8000`
-
 # Structure created as an example
 ## SRP :ok:
 ```
 - item
-- CarrinhoCompra->item
-- Pedido->CarrinhoCompra
+- CarrinhoCompra->item()
+- Pedido->CarrinhoCompra()
 - index-> [
           ->EmailService,
           ->Item,
@@ -27,8 +23,25 @@ Endpoint | Description
           ->CarrinhoCompra
           ]
 ```
-## OCP :soon:
+## OCP :ok:
+```
+- index-> class Leitor
+- index-> [
+          ->getDiretorio(),
+          ->getArquivo(),
+          ->setDiretorio(),
+          ->setArquivo(),
+          ->lerArquivo() [
+              call_user_func_array (
+                class Txt or Csv or Xlsx
+               )
+            ]
+          ]
+```
+## LSP :soon:
 
+# Exec server 
+`php -S localhost:8000`
 
 # PHP and Composer version
 PHP 7.4.28
