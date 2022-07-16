@@ -5,7 +5,7 @@ Endpoint | Description
 --- | ---
 `S` | SRP - Single Responsibility Principle (Princípio da Responsabilidade Única) :heavy_check_mark:
 `O` | OCP - Open/Closed Principle (Princípio Aberto/Fechado) :heavy_check_mark:
-`L` | LSP - Liskov Substitution Principle (Princípio de Substituição de Liskov) :x:
+`L` | LSP - Liskov Substitution Principle (Princípio de Substituição de Liskov) :heavy_check_mark:
 `I` | ISP - Interface Segregation Principle (Princípio da Segregação de Interface) :x:
 `D` | DIP - Dependency Inversion Principle (Princípio da Inversão de Dependência) :x:
 `PHPUnit` | Extra - Implementing Automated Unit Tests :heavy_check_mark:
@@ -38,7 +38,26 @@ Endpoint | Description
             ]
           ]
 ```
-## LSP :soon:
+## LSP :ok:
+```
+- index-> class Poligono
+- index-> class Retangulo
+- index-> class Quadrado
+- index-> [
+          ->setForma(new Retangulo());
+            ->setAltura(5);
+            ->setLargura(10);
+          ->setForma(new Quadrado());
+            ->setAltura(5);
+            ->setLargura(10);   
+          ]
+```
+## ISP :soon:
+```
+```
+## DIP :soon:
+```
+```
 
 # Exec server 
 `php -S localhost:8000`
