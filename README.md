@@ -6,7 +6,7 @@ Endpoint | Description
 `S` | SRP - Single Responsibility Principle (Princípio da Responsabilidade Única) :heavy_check_mark:
 `O` | OCP - Open/Closed Principle (Princípio Aberto/Fechado) :heavy_check_mark:
 `L` | LSP - Liskov Substitution Principle (Princípio de Substituição de Liskov) :heavy_check_mark:
-`I` | ISP - Interface Segregation Principle (Princípio da Segregação de Interface) :x:
+`I` | ISP - Interface Segregation Principle (Princípio da Segregação de Interface) :heavy_check_mark:
 `D` | DIP - Dependency Inversion Principle (Princípio da Inversão de Dependência) :x:
 `PHPUnit` | Extra - Implementing Automated Unit Tests :heavy_check_mark:
 
@@ -52,7 +52,7 @@ Endpoint | Description
             ->setLargura(10);   
           ]
 ```
-## ISP :soon:
+## ISP :ok:
 ```
 ```
 ## DIP :soon:
@@ -65,3 +65,7 @@ Endpoint | Description
 # PHP and Composer version
 PHP 7.4.28
 Composer version 2.2.9
+
+# command to generate the necessary files that Composer will use for autoloading.
+
+composer dump-autoload

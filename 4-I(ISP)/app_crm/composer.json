@@ -1,0 +1,15 @@
+{
+    "name": "gezer/app_crm",
+    "autoload": {
+        "psr-4": {
+            "app\\": "app/"
+        }
+    },
+    "authors": [
+        {
+            "name": "gezerramos2",
+            "email": "gezerramo@gmail.com"
+        }
+    ],
+    "require": {}
+}
