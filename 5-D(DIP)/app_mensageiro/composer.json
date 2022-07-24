@@ -1,0 +1,15 @@
+{
+    "name": "gezer/app_mensageiro",
+    "autoload": {
+        "psr-4": {
+            "src\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "gezerramos2",
+            "email": "gezerramo@gmail.com"
+        }
+    ],
+    "require": {}
+}

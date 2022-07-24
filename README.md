@@ -7,7 +7,7 @@ Endpoint | Description
 `O` | OCP - Open/Closed Principle (Princípio Aberto/Fechado) :heavy_check_mark:
 `L` | LSP - Liskov Substitution Principle (Princípio de Substituição de Liskov) :heavy_check_mark:
 `I` | ISP - Interface Segregation Principle (Princípio da Segregação de Interface) :heavy_check_mark:
-`D` | DIP - Dependency Inversion Principle (Princípio da Inversão de Dependência) :x:
+`D` | DIP - Dependency Inversion Principle (Princípio da Inversão de Dependência) :heavy_check_mark:
 `PHPUnit` | Extra - Implementing Automated Unit Tests :heavy_check_mark:
 
 # Structure created as an example
@@ -94,8 +94,19 @@ Endpoint | Description
     ]
 ]
 ```
-## DIP :soon:
+## DIP :ok:
 ```
+- index-> [
+    src\Email;
+    src\Sms;
+    src\Whatsapp;
+
+    src\Mensageiro([
+      new Email()
+      new Sms()
+      new Whatsapp(
+    ])) implements interface src\IMensagemToken   
+]
 ```
 
 # Exec server 
