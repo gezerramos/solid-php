@@ -2,12 +2,12 @@
 
 namespace app\dao;
 
-use app\BD;
+use app\DB;
 use app\interfaces\ICadastro;
 use app\componentes\Log;
 use app\componentes\Notificacao;
 
-class ContratoModel extends BD implements ICadastro
+class ContratoModel extends DB implements ICadastro
 {
 
   public function salvar()

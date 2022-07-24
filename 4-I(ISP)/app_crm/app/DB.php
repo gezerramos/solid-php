@@ -2,7 +2,7 @@
 
 namespace app;
 
-class BD
+class DB
 {
   private $conexao;
 
