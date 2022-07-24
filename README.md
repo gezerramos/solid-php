@@ -67,7 +67,7 @@ Endpoint | Description
         enviarNotificacao(Notificacao $notificacao)
       ]
     ]
-    LeadModeo
+    LeadModel
      [
       \app\BD;
       \app\interfaces\ICadastro;
@@ -78,7 +78,7 @@ Endpoint | Description
         enviarNotificacao(Notificacao $notificacao)
       ]
     ]
-    UsuarioMode
+    UsuarioModel
     [
       \app\BD;
       \app\interfaces\ICadastro;
