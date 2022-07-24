@@ -6,7 +6,6 @@ use app\BD;
 use app\interfaces\ICadastro;
 use app\interfaces\INotificacao;
 use app\interfaces\Ilog;
-
 use app\componentes\Log;
 use app\componentes\Notificacao;
 
